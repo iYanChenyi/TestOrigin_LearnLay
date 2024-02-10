@@ -1,12 +1,14 @@
 package com.wen.usercenter.service;
 import java.util.Date;
 
-import com.wen.usercenter.model.domain.User;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.Assert;
+
+import com.LearnLay.usercenter.model.domain.User;
+import com.LearnLay.usercenter.service.UserService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
