@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.wen.usercenter.mapper")
+@MapperScan("com.LearnLay.usercenter.mapper")
 public class UserCenterApplication {
 
     public static void main(String[] args) {
