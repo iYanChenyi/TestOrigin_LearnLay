@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/learnlah
-    username: root
-    password: konodioda
+    url: jdbc:mysql://database-1.c9aqaayakitj.ap-southeast-1.rds.amazonaws.com:3306/learnlah
+    username: admin
+    password: zhuyi1234
   session:
     timeout: 86400
 server:
